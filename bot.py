@@ -10,11 +10,11 @@ discord_client = discord.Client()
 last_transaction = None
 
 # polygon mainnet
-RPC = "https://polygon-mainnet.g.alchemy.com/v2/iS4IWtq7YDL6J5MWwPOK_KyfLKEs4vwc"
+RPC = "https://polygon-mainnet.infura.io/v3/dafe7978cb1145039d88ae648aa3278a"
 chain_Id = 137
 
 # polygon mumbai
-#RPC = "https://polygon-mumbai.g.alchemy.com/v2/nQcQrBLnswV4YMuqCp4mcUnBbEMBgjXS"
+#RPC = "https://polygon-mumbai.infura.io/v3/dafe7978cb1145039d88ae648aa3278a"
 #chain_Id = 80001
 
 def log(whatever):
